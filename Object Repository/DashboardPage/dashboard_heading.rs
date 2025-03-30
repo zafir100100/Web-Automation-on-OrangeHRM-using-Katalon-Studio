@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h6_Dashboard</name>
+   <name>dashboard_heading</name>
    <tag></tag>
    <elementGuidId>a4bc4807-9add-4614-ba4d-e221103e9a2e</elementGuidId>
    <selectorCollection>
@@ -13,8 +13,12 @@
          <key>CSS</key>
          <value>h6.oxd-text.oxd-text--h6.oxd-topbar-header-breadcrumb-module</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Dashboard' or . = 'Dashboard')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h6</value>
-      <webElementGuid>47c0e903-ecbe-4983-b1f6-d201382071dc</webElementGuid>
+      <webElementGuid>45872079-9a43-414d-836f-ca52d3908149</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-text oxd-text--h6 oxd-topbar-header-breadcrumb-module</value>
-      <webElementGuid>f0c2d688-acfd-40df-a500-d2c09214c666</webElementGuid>
+      <webElementGuid>804d77d3-0136-4f8e-8688-c2e11117dc75</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Dashboard</value>
-      <webElementGuid>429691d9-94ac-45eb-967e-fd13083bee23</webElementGuid>
+      <webElementGuid>542be6c5-a26b-4070-a22c-0120077a85cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout orangehrm-upgrade-layout&quot;]/div[@class=&quot;oxd-layout-navigation&quot;]/header[@class=&quot;oxd-topbar&quot;]/div[@class=&quot;oxd-topbar-header&quot;]/div[@class=&quot;oxd-topbar-header-title&quot;]/span[@class=&quot;oxd-topbar-header-breadcrumb&quot;]/h6[@class=&quot;oxd-text oxd-text--h6 oxd-topbar-header-breadcrumb-module&quot;]</value>
-      <webElementGuid>4f3b48ef-ada1-42b7-a3b5-39f908d17c4b</webElementGuid>
+      <webElementGuid>aef06b17-9df9-4d68-9ba2-8c3e166f830e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div/header/div/div/span/h6</value>
-      <webElementGuid>b0d7dc4d-17e6-4e6d-9679-3517e842aa12</webElementGuid>
+      <webElementGuid>25dc7ac9-a08a-417e-a984-2f314acab6e5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h6</value>
-      <webElementGuid>93695305-461f-40a4-acd9-a9ea842dac45</webElementGuid>
+      <webElementGuid>1062dc69-928b-47ce-a678-7ee779fab521</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +81,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h6[(text() = 'Dashboard' or . = 'Dashboard')]</value>
-      <webElementGuid>abbcabfa-aedf-4861-bb3a-cfb49302caca</webElementGuid>
+      <webElementGuid>90a05bac-4229-4384-9327-bd336a0038e5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

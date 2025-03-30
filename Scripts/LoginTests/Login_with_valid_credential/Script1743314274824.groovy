@@ -21,15 +21,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com')
 
-WebUI.setText(findTestObject('LoginPage/input_Username_username'), 'Admin')
+WebUI.setText(findTestObject('LoginPage/username_input'), 'Admin')
 
-WebUI.setEncryptedText(findTestObject('LoginPage/input_Password_password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
+WebUI.setEncryptedText(findTestObject('LoginPage/password_input'), 'hUKwJTbofgPU9eVlw/CnDQ==')
 
-WebUI.click(findTestObject('LoginPage/button_Login'))
+WebUI.click(findTestObject('LoginPage/login_button'))
 
-WebUI.waitForElementVisible(findTestObject('DashboardPage/h6_Dashboard'), 10)
+WebUI.waitForElementVisible(findTestObject('DashboardPage/dashboard_heading'), 10)
 
-WebUI.verifyElementVisible(findTestObject('DashboardPage/h6_Dashboard'))
+WebUI.verifyElementVisible(findTestObject('DashboardPage/dashboard_heading'))
 
 WebUI.closeBrowser()
 
