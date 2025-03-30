@@ -1,5 +1,7 @@
 #  Web-Automation-on-OrangeHRM-using-Katalon-Studio
 
+This project automates the login process for OrangeHRM using Katalon Studio, ensuring users can access the dashboard successfully.
+
 ## Video Output:
 
 [https://github.com/user-attachments/assets/59cd73e4-d61c-4ea8-a96b-ef15fb9a3b85](https://github.com/user-attachments/assets/795805a0-7f0c-4935-9f52-72ac976c4dce)
